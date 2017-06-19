@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    width: 100%;
+    height: 100%;
+}
+body {
+    font-size: 14px;
+    line-height: 1.5;
+    font-weight: 400;
+    font-family: "Enriqueta";
+   /* background-image:url("images/gl_max.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100%; */
+    
+}
+
+header {
+    margin: 25px 0;
+}
+header img {
+    width: 100%;
+}
+h1 {
+    font-family: "Alex Brush";
+     text-align: center;
+    opacity: 0.6;
+    /*font-size: 8em;*/
+}
+
+/*MENU BOCZNE----------------------------------*/
+
+aside {
+    float: left;
+    width: 30%;
+    margin: 0 0 25px;
+}
+aside nav ul {
+    list-style: none;
+}
+aside nav ul li {
+    margin-bottom: 1px;
+}
+aside nav ul li a {
+    display: block;
+    text-decoration: none;
+    color: #000;
+    background: #FFC000;
+    padding: 8px 20px;
+}
+aside nav ul li a:hover {
+    background: #212121;
+    color: #FFF;
+}
+/*RESPONDYWNE MENU------------------------------*/
+aside .menu-responsywne {
+    color: #000;
+    background: #FFC000;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 15px;
+    margin: 0 0 5px;
+    cursor: pointer;
+}
+/*SEKCJA O NAS--------------------------------*/
+.onas {
+	float: right;
+    width: 65%;
+    margin: 0 0 25px;
+   /* display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;*/
+}
+/*FOOTER------------------------------------------*/
+footer {
+    clear: both;
+    color: #FFF;
+    background: #121212;
+    padding: 15px 0 15px 30px;
+    text-align: center;
+}
+
+/*PODSTRONA POTRAWY-------------------------------------*/
+.potrawy {
+   margin: 0 0 25px;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+h2 {
+    text-align: center;
+}
+
+/*KONTAKY I LOKALIZACJA-------------------------------*/
+.info {
+    text-align: center;
+}
+
+.kontener {
+   width: 65%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.kontakt {
+margin-left: 10px;	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

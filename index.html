@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Restauracja Misia - domowe obiady w Szczecinie">
+    <meta name="keywords" content="Szczecin, restauracja, domowe obiady, jedzenie, dowóz">
+    <meta name="author" content="Marta G.">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Misia - domowe obiady</title>
+    <link type="text/css" rel="stylesheet" href="styles.css">
+    <link type="text/css" rel="stylesheet" href="media.css"/>
+    <!--CZCIONKI---------------------------------------------------------------------->
+     <link href='//fonts.googleapis.com/css?family=Alex Brush' rel='stylesheet'>
+    <link href='//fonts.googleapis.com/css?family=Enriqueta' rel='stylesheet'>
+    <!---SCRIPT----------------------------------------------------------------------------->
+        <script src="//code.jquery.com/jquery-3.2.0.min.js"></script>
+       <script src="/js/jquery-1.11.1.min.js"></script>
+<script src="js/my-slider.js"></script>
+<link href="css/my-slider.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+       <!--NAGŁÓWEK------------------------------------>
+        <header>
+           <h1>Misia - domowe obiady</h1>
+           <div class="slider">
+           <div>
+           <img src="images/img1.jpg" alt="potrawa1"> 
+           </div>
+           <div>
+               <img src="images/img2.jpg" alt="potrawa2">
+           </div>
+           <div>
+               <img src="images/img3.jpg" alt="potrawa3">
+           </div>
+           <div>
+               <img src="images/img4.jpg" alt="potrawa4">
+           </div>
+           <div>
+               <img src="images/img5.jpg" alt="potrawa5">
+           </div>
+           <div>
+               <img src="images/img6.jpg" alt="potrawa6">
+           </div>
+           </div>
+        </header>
+        <!--NAWIGACJA------------------------------------>
+        <aside>
+           <div class="menu-responsywne">MENU</div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">O nas</a></li>
+                    <li><a href="menu.html">Potrawy</a></li>
+                    <li><a href="kontakt.html">Kontakt</a></li>
+                </ul>
+            </nav>
+        </aside>
+        <!--SEKCJA O NAS------------------------------------>
+        <section class="onas">
+            <h2>O NAS</h2>
+            <p> Jesteśmy małą restauracją, w której przygotowujemy pyszne obiady. Każdy posiłek to esencja niepowtarzalnego smaku.<br> Serwujemy proste i smaczne potrawy.
+                <br> Znajdą Państwo u nas zarówno tradycyjne mięsne dania wraz z ciepłą zupą, jak i słodkie przysmaki typu naleśniki.
+                <br>
+                <br> Nasza firma powstała z pasji do jedzenia. Wiemy jak ważny jest ciepły i smaczny posiłek, który jest gwarancją prawidłowego funkcjonowania w ciągu dnia.
+                <br>
+                <br> Zapraszamy i życzymy smacznego! </p>
+        </section>
+        <!--STOPKA----------------------------------------->
+        <footer>
+            <p>Strona testowa!</p>
+        </footer>
+    </div>
+
+   <script>
+$(document).ready(function(){
+
+$(".menu-responsywne").click(function(){
+
+$('nav').slideToggle();
+
+});
+
+});
+
+</script>    
+</body>
+</html>

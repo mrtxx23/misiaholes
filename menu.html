@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Misia - domowe obiady</title>
+    <link type="text/css" rel="stylesheet" href="styles.css">
+    <link type="text/css" rel="stylesheet" href="media.css"/>
+    <!--CZCIONKI---------------------------------------------------------------------->
+     <link href='//fonts.googleapis.com/css?family=Alex Brush' rel='stylesheet'>
+    <link href='//fonts.googleapis.com/css?family=Enriqueta' rel='stylesheet'>
+    <!---SCRIPT----------------------------------------------------------------------------->
+        <script src="//code.jquery.com/jquery-3.2.0.min.js"></script>
+       <script src="/js/jquery-1.11.1.min.js"></script>
+<script src="js/my-slider.js"></script>
+<link href="css/my-slider.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+       <!--NAGŁÓWEK------------------------------------>
+        <header>
+           <h1>Misia - domowe obiady</h1>
+           <div class="slider">
+           <div>
+           <img src="images/img1.jpg" alt=""> 
+           </div>
+           <div>
+               <img src="images/img2.jpg" alt="">
+           </div>
+           <div>
+               <img src="images/img3.jpg" alt="">
+           </div>
+           <div>
+               <img src="images/img4.jpg" alt="">
+           </div>
+           <div>
+               <img src="images/img5.jpg" alt="">
+           </div>
+           <div>
+               <img src="images/img6.jpg" alt="">
+           </div>
+           </div>
+        </header>
+        <!--NAWIGACJA------------------------------------>
+        <aside>
+           <div class="menu-responsywne">MENU</div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">O nas</a></li>
+                    <li><a href="menu.html">Potrawy</a></li>
+                    <li><a href="kontakt.html">Kontakt</a></li>
+                </ul>
+            </nav>
+        </aside>
+        <!--POTRAWY--------------------------------------->
+        <section class="potrawy">
+        
+        <div class="zestawy">
+            <h2>ZESTAWY</h2>
+            <ol>
+                <li>11,90zł Kotlet mielony z ziemniakami, surówka</li>
+                <li>11,90zł Kotlet mielony w sosie z ziemniakami, surówka</li>
+                <li>12,90zł Kotlet schabowy z ziemniakami, surówka</li>
+                <li>13,90zł Kotlet schabowy po wiedeńsku z ziemniakami, surówka</li>
+                <li>12,90zł Filet z kurczaka panierowany lub grilowany z ziemniakami, surówka</li>
+                <li>14,00zł Filet z miruny z ziemniakami, surówka</li>
+                <li>11,90zł Wątróbka z cebulą i ziemniakami, surówka</li>
+                <li>9,00zł Jajko sadzone z ziemniakami, surówka</li>
+                <li>9,00zł Naleśniki z serem, dżemem albo ze śmietaną (3szt.)</li>
+                <li>10,90zł Sałatka z serem feta</li>
+                <li>11,90zł Sałatka z kurczakiem</li>
+            </ol>
+        </div>
+        <div class="dodatki">
+            <h2>DODATKI</h2>
+            <ol>
+                <li>3,50zł Ryż</li>
+                <li>3,50zł Kasza gryczana</li>
+                <li>2,50zł Ziemniaki</li>
+                <li>2,50zł Surówka</li>
+            </ol>
+              </div>
+        
+        </section>
+        <!--STOPKA----------------------------------------->
+        <footer>
+            <p>Strona testowa!</p>
+        </footer>
+    </div>
+    <script>
+$(document).ready(function(){
+
+$(".menu-responsywne").click(function(){
+
+$('nav').slideToggle();
+
+});
+
+});
+
+</script>    
+</body>
+</html>

@@ -1,0 +1,133 @@
+.container {
+	margin: 0 auto;
+}
+/*1050px-KOMPUTER------------------------------------------*/
+@media (min-width: 1100px) {
+    .container {
+	width: 1050px;
+}
+    aside {
+        width: 30%;
+    }
+    .onas {
+	width: 65%
+}
+.menu-responsywne {
+        display: none;
+    }
+    h1 {
+        font-size: 7em;
+    }
+}
+/*950px-TABLET ORIENTACJA POZIOMA--------------------------------------------*/
+@media (max-width: 1100px) and (min-width: 1000px) {
+    .container {
+	width: 950px;      
+}
+    aside {
+        width: 30%;
+}
+    .onas {
+	width: 65%;
+}
+     aside .menu-responsywne {
+        display: none;
+    }
+    h1 {
+        font-size: 5em;
+    }
+    
+    }
+
+/*750px-TABLET ORIENTACJA PIONOWA------------------------------------------------*/
+@media (max-width: 1000px) and (min-width: 800px) {
+    .container {
+	width: 750px;
+}
+    aside {
+        width: 30%;
+    }
+    .onas {
+	width: 65%;
+}
+  aside .menu-responsywne {
+        display: none;
+    }
+    h1 {
+        font-size: 5em;
+    }
+}
+/*450px-TELEFON ORIENTACJA POZIOMA---------------------------------------------*/
+@media (max-width: 800px) and (min-width: 500px) {
+    .container {
+	width: 450px;     
+}
+    aside {
+        width: 100%;
+    }
+    .onas {
+	width: 100%;
+}
+    h1 {
+        font-size: 4em;
+    }
+ aside nav {
+        display: none;
+    }
+    aside nav ul li {
+        margin-bottom: 1px;
+    }
+    aside nav ul li a {
+        display: block;
+        color: #000;
+        background: #FFC000;
+        padding: 8px 20px;
+        font-size: 14px;
+        font-weight: 700;
+    }
+    aside nav ul li a:hover {
+        background: #212121;
+        color: #FFF;
+    } 
+    .potrawy {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+    }
+}
+
+/*300px-TELEFON ORIENTACJA PIONOWA-----------------------------------------------*/
+@media (max-width:500px) {
+    .container {
+	width: 90%;
+}
+    aside {
+        width: 100%;
+    }
+    .onas {
+	width: 100%;
+}
+    h1 {
+        font-size: 3em;
+    }
+    /*------------------------------------------*/
+      aside nav {
+        display: none;
+    }
+    aside nav ul li {
+        margin-bottom: 1px;
+    }
+    aside nav ul li a {
+        display: block;
+        color: #000;
+        background: #FFC000;
+        padding: 8px 20px;
+        font-size: 14px;
+        font-weight: 700;
+    }
+    aside nav ul li a:hover {
+        background: #212121;
+        color: #FFF;
+    } 
+}
